@@ -67,11 +67,53 @@ Next, we are going to allow anyone to create tickets by going to 'Admin Panel', 
 
 Step 5
 <p>
-<img width="771" alt="Screenshot 2023-09-26 at 12 13 47 AM" src="https://github.com/lucasfregoso/osticket-prereqs/assets/144977615/07fc8e46-c92f-4750-9e52-0ba8dac20dc5">
+<img width="1385" alt="Screenshot 2023-09-26 at 10 56 21 PM" src="https://github.com/lucasfregoso/post-install-config/assets/144977615/3b709453-218b-4e3d-9412-d9047dd6e0c5">
 </p>
 <p>
-Finally, we rename our root file to ost-config.php and assign permissions on this file so that everyone is able to do anything to this file since the osTicket installer needs to interact and maanipulate with this file. To do this we go properties from this file, go to security, then to advanced, disable inheritance, and remove all permissions. Afterwards, we add new permissions and allow 'everyone' to have full control. Then, we continue setting up osTicket and install Heidi SQL, which will allow us to connect the MySQL server that we installed earlier and set up a database that the osTicket is going to use. We create the database in Heidi SQL once it's downloaded and call it 'osTicket' and fill out the remaaining info on the osTicket installer website. Lastly, we'll get a 'congratulations' text if we did it right and after this we do a clean up to make everything comes full circle and login to make that works too.
+Next, we are going to configure new agents and our agents are essentially our help desk professionals that look through the tickets submitted as well as solving them. So, we go to 'Agent Panel', 'Agents', 'Add New', and create our workers Jane and John.
 </p>
 <br />
-Step 5 Continued
-<img width="1525" alt="Screenshot 2023-09-26 at 12 14 57 AM" src="https://github.com/lucasfregoso/osticket-prereqs/assets/144977615/08c20dd6-774c-4f87-a5bf-7a208a784696">
+
+Step 6
+<p>
+<img width="1385" alt="Screenshot 2023-09-26 at 11 07 54 PM" src="https://github.com/lucasfregoso/post-install-config/assets/144977615/c730b4c8-42ff-4be2-b3bc-b68ea88b251f">
+</p>
+<p>
+Next, we are going to configure the users and the users in this lab are our customers or clients who are having specific issues with their computers, their company's online banking system, software update, and so on. These are the people who we will be providing our support to. We are basically simulating an IT help desk professional working on tickets. To add them, we go to 'Agent Panel', 'Users', 'Add New' and add Karen and Ken as our users.
+</p>
+<br />
+
+Step 7
+<p>
+<img width="1385" alt="Screenshot 2023-09-26 at 10 37 16 PM" src="https://github.com/lucasfregoso/post-install-config/assets/144977615/97ecb899-13ae-41ec-b684-68e74006a91c">
+</p>
+<p>
+Next, we are going to allow anyone to create tickets by going to 'Admin Panel', 'Settings', 'User Settings', and under 'Registration Required' we want to make sure that is unchecked allowing anyone to be able to create and submit tickets. 
+</p>
+<br />
+
+
+Step 8
+<p>
+<img width="1385" alt="Screenshot 2023-09-26 at 10 37 16 PM" src="https://github.com/lucasfregoso/post-install-config/assets/144977615/97ecb899-13ae-41ec-b684-68e74006a91c">
+</p>
+<p>
+Next, we are going to allow anyone to create tickets by going to 'Admin Panel', 'Settings', 'User Settings', and under 'Registration Required' we want to make sure that is unchecked allowing anyone to be able to create and submit tickets. 
+</p>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
