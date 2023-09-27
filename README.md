@@ -22,16 +22,19 @@ This tutorial outlines the post installation configuration of the open-source he
 - Step 3
 - Step 4
 - Step 5
+- Step 6
+- Step 7
+- Step 8
 
 (Images going from left to right)
 <h2>Installation Steps</h2>
 
 Step 1
 <p>
-<img width="1545" alt="RG and VM for OsTicket" src="https://github.com/lucasfregoso/osticket-prereqs/assets/144977615/8ff3dea7-1c06-4a93-98c3-90e9983992e6">
+<img width="1385" alt="Screenshot 2023-09-26 at 10 00 02 PM" src="https://github.com/lucasfregoso/post-install-config/assets/144977615/a15ef5c9-c5c7-49df-a695-92825ec9a3d8">
 </p>
 <p>
-Our first step in creating an osTicket system we create our resource group through Azure and we do that by searching up 'Resource Groups' and create one. From there we just add a name to it and make sure it has a subscription. Then, once it gets validated we move on to creating a virtual machine and we do this by searching for 'virual machines' and fill out all the details that we need, which include virtual machine name, image, region, username/password, etc. After this, once everything is set up we will open our virtual machine through microsoft remote desktop and get started with the lab.
+For our first step, we are going to configure and assign roles to the users we created in the previous part and the roles are essentially custom because we will define the roles for who will have access to do what and how much. So as the admin, in osTicket we go to 'Agent Panel', 'Agents', and then 'Departments.' Once we are here, we add a new role and name it 'Supreme Admin' for our example, then we allow the 'Supreme Admin' to have all permissions, which basically allows this user to do things such as assign tickets, do tickets themselves, reply to messages, etc. 
 </p>
 <br />
 
