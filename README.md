@@ -58,10 +58,10 @@ Next, we are going to configure our teams and teams allows agents to be pulled f
 
 Step 4
 <p>
-<img width="1631" alt="Screenshot 2023-09-25 at 11 37 12 PM" src="https://github.com/lucasfregoso/osticket-prereqs/assets/144977615/90859a89-c128-4aa0-b50b-c11c82a4eeb5">
+<img width="1385" alt="Screenshot 2023-09-26 at 10 37 16 PM" src="https://github.com/lucasfregoso/post-install-config/assets/144977615/97ecb899-13ae-41ec-b684-68e74006a91c">
 </p>
 <p>
-Now, we open up IIS as an admin, register PHP from within the the IIS, restart it to make sure that it is registered, and then download the osTicket file from our list of instructions. Next, we extracted and copied the 'upload' (which came from the osTickett file we downloaded) folder into c:\inetpub\www.root and then renamed the 'upload' file to 'osTicket.' After this, we go back to IIS and go to sites-->Default-->osTicket and towards the very right we click 'Browse*:80', which will bring us to the 'osTicket installer' website and means we are on the right path. After this, we go back to IIS to enable some extensions since a couple of them will not be enabled at first. So, we go back to IIS and head to sites-->Default-->osTicket and double click on PHP Manager and enable the following: php_imap.dll, php_intl.dll, php_opcache.dll. 
+Next, we are going to allow anyone to create tickets by going to 'Admin Panel', 'Settings', 'User Settings', and under 'Registration Required' we want to make sure that is unchecked allowing anyone to be able to create and submit tickets. 
 </p>
 <br />
 
