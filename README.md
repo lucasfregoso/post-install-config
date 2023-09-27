@@ -49,10 +49,10 @@ Our second step is going to be configuring departments and these are basically a
 
 Step 3
 <p>
-<img width="1631" alt="Screenshot 2023-09-25 at 10 43 42 PM" src="https://github.com/lucasfregoso/osticket-prereqs/assets/144977615/fc8f877c-09a6-4215-9a72-c84d62105201">
+<img width="1385" alt="Screenshot 2023-09-26 at 10 29 52 PM" src="https://github.com/lucasfregoso/post-install-config/assets/144977615/a8a1c0bd-d527-4b07-a276-e3e4e11fd7c5">
 </p>
 <p>
-For the next part, we will install a few key requirements for out osTicketing System to function properly. So, from our instruction list we will install Rewrite Module by clicking on the link provided, go to 'downloads'in our files, open it up, agree to the terms/conditions, and install it. Then, we make a folder called 'PHP' on our c: drive, download 'PHP 7.3.8', onced it's downloaded we extract it into our PHP folder, and everything will get dumped into there. After this, we install both C++ Redistributable and MySQL Server.
+Next, we are going to configure our teams and teams allows agents to be pulled from differing departments organizing them to tackle a specific issue, help topic, or a ticket. With that said, in osTicket we go to 'Agent Panel', 'Agents', and 'Teams.' From here we just add new team and this could be whatever you want depending on what is needed in a company/business, but for our example we added support level 1 and support level 2. 
 </p>
 <br />
 
