@@ -85,20 +85,20 @@ Next, we are going to configure the users and the users in this lab are our cust
 
 Step 7
 <p>
-<img width="1385" alt="Screenshot 2023-09-26 at 10 37 16 PM" src="https://github.com/lucasfregoso/post-install-config/assets/144977615/97ecb899-13ae-41ec-b684-68e74006a91c">
+<img width="1385" alt="Screenshot 2023-09-26 at 11 21 59 PM" src="https://github.com/lucasfregoso/post-install-config/assets/144977615/aec89ec1-0d7a-403f-932c-996d0f94b7df">
 </p>
 <p>
-Next, we are going to allow anyone to create tickets by going to 'Admin Panel', 'Settings', 'User Settings', and under 'Registration Required' we want to make sure that is unchecked allowing anyone to be able to create and submit tickets. 
+Next, we will configure our SLA Plans and these in osTicket determine the length of time in which the help desk professional has until a ticket(s) needs to be completed. So we created three different SLA Plans with 'SEV A' being our high priority or critical issue and 'SEV C' being our low priority or our common issue that people may have. Of course, with these plans having different levels they will also have different deadlines and for which ever one it doesn't matter what day of the week it is, if it falls within an acitve timeframe then the issue needs to be resolved. So, in the lab we again migrate to 'Agent Panel', 'Manage', 'SLA' and add our 'Sev-A(1 hour 24/7)', 'Sev-B(4 hours 24/7)', 'Sev-C(8 hours, buiness hours).'
 </p>
 <br />
 
 
 Step 8
 <p>
-<img width="1385" alt="Screenshot 2023-09-26 at 10 37 16 PM" src="https://github.com/lucasfregoso/post-install-config/assets/144977615/97ecb899-13ae-41ec-b684-68e74006a91c">
+<img width="1385" alt="Screenshot 2023-09-26 at 11 29 55 PM" src="https://github.com/lucasfregoso/post-install-config/assets/144977615/25b5f328-bc05-44c2-ab48-6fb516ca9597">
 </p>
 <p>
-Next, we are going to allow anyone to create tickets by going to 'Admin Panel', 'Settings', 'User Settings', and under 'Registration Required' we want to make sure that is unchecked allowing anyone to be able to create and submit tickets. 
+Lastly, we are going to configure help topics and this is for our end users, so in our lab it would be Ken and Karen who will be able to choose from our list of topics that we created, which will allow them to determine which topic best fits their issue. So we go to 'Admin Panel', 'Manage', 'Help Topics' and we add the following help topics: Business Critical Outage, Personal Computer Issues, Equipment Request, and Password Reset. 
 </p>
 <br />
 
