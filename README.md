@@ -34,17 +34,16 @@ Step 1
 <img width="1385" alt="Screenshot 2023-09-26 at 10 00 02 PM" src="https://github.com/lucasfregoso/post-install-config/assets/144977615/a15ef5c9-c5c7-49df-a695-92825ec9a3d8">
 </p>
 <p>
-For our first step, we are going to configure and assign roles to the users we created in the previous part and the roles are essentially custom because we will define the roles for who will have access to do what and how much. So as the admin, in osTicket we go to 'Agent Panel', 'Agents', and then 'Departments.' Once we are here, we add a new role and name it 'Supreme Admin' for our example, then we allow the 'Supreme Admin' to have all permissions, which basically allows this user to do things such as assign tickets, do tickets themselves, reply to messages, etc. 
+For our first step, we are going to configure and assign roles to the users we created in the previous part and the roles are essentially custom because we will define the roles for who will have access to do what and how much. So as the admin, in osTicket we go to 'Agent Panel', 'Agents', and then 'Roles' Once we are here, we add a new role and name it 'Supreme Admin' for our example, then we allow the 'Supreme Admin' to have all permissions, which basically allows this user to do things such as assign tickets, do tickets themselves, reply to messages, etc. 
 </p>
 <br />
 
 Step 2
 <p>
-<img width="1595" alt="Screenshot 2023-09-25 at 9 49 56 PM" src="https://github.com/lucasfregoso/osticket-prereqs/assets/144977615/8addaef5-387c-4d46-ac9a-9a2c854794ab">
-
+<img width="1385" alt="Screenshot 2023-09-26 at 10 18 42 PM" src="https://github.com/lucasfregoso/post-install-config/assets/144977615/f599a5d9-6d75-4caa-abc9-960f7a748a2a">
 </p>
 <p>
-To start off, we go into control panel and under 'Programs and Features' we click on 'Turn Windows features on/off.' We then go to 'Internet Information Services' and check off the box, expand this box, expand 'World Wide Web Services', expand 'Application Development Features', and check CGI, which is what defines the environment for IIS. Then we go to 'Common HTTP Features' and make sure that everything there is checked as well. Next, we just select OK and these changes will be applied. To double check, we could just load up the default loopback address or our local host (127.0.0.1), which will bring us to the default IIS website and that lets us know we did this correctly.
+Our second step is going to be configuring departments and these are basically a collection of agents for said department. Support, maintenaince, finance are some examples of this and department members will see tickets assigned to their area of expertise and sometimes departments will reach out to other departments for a collaboration or to reassign a ticket. But, for this part all we have to do is go to 'Agent Panel', 'Agents', then 'Departments' and add our 'System Administrators' department with the default settings. 
 </p>
 <br />
 
